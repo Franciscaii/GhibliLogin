@@ -1,0 +1,60 @@
+/* Reset de estilos básicos */
+body, h1, p, input {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el cuerpo de la página con fondo de imagen */
+  body {
+    background: url('estrellas.jpg') center/cover; /* Cambiado a una imagen de fondo */
+    color: #fff; /* Color del texto para que sea legible en la imagen de fondo */
+    font-family: Arial, sans-serif; /* Establecer una fuente de texto */
+  }
+  
+  /* Estilos para el contenedor de login con fondo de imagen y bordes redondos */
+  .loginbox {
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    background: url('gradient.jpg') center/cover; /* Cambiado a una imagen de fondo dentro del recuadro */
+    box-shadow: 0 0 10px rgba(234, 8, 8, 0.947);
+    color: #ffffff; /* Color del texto para que sea legible en la imagen de fondo dentro del recuadro */
+    border-radius: 10px; /* Bordes redondos */
+  }
+  
+  /* Estilos para los elementos dentro del formulario */
+  h1 {
+    text-align: center;
+    color: #0a4696f1;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background: #30de36;
+    color: #0b0a0a;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }

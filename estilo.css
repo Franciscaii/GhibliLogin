@@ -1,0 +1,96 @@
+/* Reset de estilos básicos */
+body, h1, p, input {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el cuerpo de la página con fondo de imagen */
+  body {
+    background: url('chigiro.jpg') center/cover; /* Cambiado a una imagen de fondo */
+    color: #fff; /* Color del texto para que sea legible en la imagen de fondo */
+    font-family: Arial, sans-serif; /* Establecer una fuente de texto */
+  }
+  
+  /* Estilos para el contenedor de login con fondo de imagen y bordes redondos */
+  .loginbox {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    background: url('fuegito.jpg') center/cover; /* Cambiado a una imagen de fondo dentro del recuadro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Color del texto para que sea legible en la imagen de fondo dentro del recuadro */
+    border-radius: 10px; /* Bordes redondos */
+  }
+  
+  /* Estilos para los elementos dentro del formulario */
+  h1 {
+    text-align: center;
+    color: #0c0202;
+    margin-top: 20px; 
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 8px;
+    color: #0e0f0e;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.214); /* Fondo transparente */
+    border: 1px solid #ff6d24;
+    border-radius: 5px; /* Bordes redondos */
+  }
+  
+    input[type="submit"] {
+        background: #01120279;
+        color: #2eff1f;
+        cursor: pointer;
+        width: 100px;
+        height: 40px; /* Altura del botón ajustada (puedes ajustar según tu preferencia) */
+        border-radius: 10px;
+        margin-left: 100px; /* Margen a la izquierda para posicionar más a la derecha */
+    }
+
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
+  /* ... (otros estilos) ... */
+
+/* Estilos para el contenedor de login con fondo de imagen y bordes redondos */
+    .loginbox {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    background: url('fuegito.jpg') center/cover; /* Cambiado a una imagen de fondo dentro del recuadro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Color del texto para que sea legible en la imagen de fondo dentro del recuadro */
+    border-radius: 10px; /* Bordes redondos */
+    position: relative; /* Agregado para posicionar la imagen y el título de manera absoluta dentro del contenedor */
+    }
+
+    /* Estilos para la imagen ninja */
+    .avatar {
+    width: 80px; /* Ancho ajustado de la imagen ninja */
+    height: 80px; /* Altura ajustada de la imagen ninja */
+    border-radius: 50%; /* Bordes redondos para que la imagen sea un círculo */
+    position: absolute; /* Posicionado de manera absoluta dentro del contenedor */
+    top: -40px; /* Ajustado para centrar la imagen ninja en la parte superior del contenedor */
+    left: 50%; /* Ajustado para centrar la imagen ninja horizontalmente */
+    transform: translateX(-50%); /* Centra la imagen ninja utilizando transform */
+    }
+
